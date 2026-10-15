@@ -1,0 +1,9 @@
+KPI,Value,Definition
+Total observations,27750.0,Song-day rows (one row = one song on one date)
+Explicit Content Share (%),56.266666666666666,Explicit rows / total rows x 100
+Clean Content Dominance Ratio,0.7772511848341233,Clean rows / Explicit rows
+Single vs Album Track Ratio,0.8901982153804237,Single rows / Album-track rows
+Average Song Duration (min),3.0914124196667747,"Mean of duration_ms / 60,000"
+Average Popularity,76.84030061061532,Mean popularity (valid scores only)
+Album Size Impact Index,-0.229843445069015,"Mean of Spearman rho(total_tracks, popularity) and rho(total_tracks, rank_score); -1 to +1"
+Content Acceptance Score,63.3031821265734,100 x (0.5 x normalised popularity + 0.5 x normalised rank score)

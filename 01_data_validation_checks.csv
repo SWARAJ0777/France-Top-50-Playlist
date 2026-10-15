@@ -1,0 +1,23 @@
+Check,Result,Details
+Rows x columns,"27,800 x 10","date, position, song, artist, popularity, duration_ms, album_type, total_tracks, is_explicit, album_cover_url"
+Unparseable dates (format DD-MM-YYYY),0,
+Date range,2024-05-18 to 2025-11-27,555 unique dates
+Calendar dates with no snapshot,4,"2025-03-14, 2025-03-25, 2025-07-11, 2025-08-13"
+Dates that do not have exactly 50 rows,1,01-03-2025: 100 rows
+Non-numeric positions,0,
+Positions outside 1-50,0,
+Duplicate ranks within the same date (rows beyond the first),50,
+Exact duplicate rows,19,
+Missing / blank values in 'song',1,
+Total missing / blank cells,1,
+Non-numeric values in 'popularity',0,
+Non-numeric values in 'duration_ms',0,
+Non-numeric values in 'total_tracks',0,
+Popularity outside 1-100 (0 = score not available),73,"min=0, max=100"
+Duration <= 0 ms,1,
+Duration < 60 s (reviewed - plausible intros/interludes),7,
+total_tracks < 1,0,"min=1, max=119"
+Distinct album_type labels,3,"album=14,695, single=13,096, compilation=9"
+Distinct is_explicit labels,2,"TRUE=15,640, FALSE=12,160"
+"Text with leading/trailing spaces (song, artist)",0,
+"Releases labelled 'single' with more than 1 track (EP-style, kept as labelled)",1761,

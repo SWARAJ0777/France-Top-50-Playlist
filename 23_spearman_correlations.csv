@@ -1,0 +1,7 @@
+Relationship,Spearman rho,p-value,p-value (display),n,Strength,Statistical conclusion
+Popularity vs rank score,0.17861402690492953,3.8116022512346046e-197,< 0.001,27677,small,Small positive monotonic relationship (p < 0.001)
+Duration (min) vs popularity,0.09909421199934956,2.3981341649581367e-61,< 0.001,27677,negligible,Negligible relationship (p < 0.001)
+Duration (min) vs rank score,-0.007785767839098758,0.19465979556868654,0.195,27749,negligible,Negligible relationship (p 0.195)
+Album size vs popularity,-0.34862687605702947,0.0,< 0.001,27677,moderate,Moderate negative monotonic relationship (p < 0.001)
+Album size vs rank score,-0.11106001408100051,7.113815783095057e-77,< 0.001,27750,small,Small negative monotonic relationship (p < 0.001)
+Album size vs duration (min),0.11551949416207682,4.683928693841131e-83,< 0.001,27749,small,Small positive monotonic relationship (p < 0.001)

@@ -1,0 +1,8 @@
+Area,Recommendation,Supporting evidence,Confidence
+Explicit-content strategy,Do not remove or soften explicit content to qualify for the French Top 50.,56.3% of rows and 62.4% of the Top 10 are explicit; explicit Top 10 rate 22.2% vs 17.2% clean.,High
+Song duration,Aim for roughly 2.5-4 minutes; treat tracks over 4 minutes as a risk to Top 10 presence.,Medium = 84.9% of Top 10 vs 81.7% overall; Long = 3.7% vs 5.4%.,High
+Single vs Album release strategy,Lead with singles or clear focus tracks when popularity and Top 10 entry are the goal; albums remain viable.,Singles: popularity 80.8 vs 73.3 (robust at track level); rank advantage modest and not robust.,High (popularity) / Moderate (rank)
+Availability of clean versions,Keep a clean version available as a low-cost complement to an explicit release.,Clean rows have higher popularity (80.9 vs 73.6) but not better chart positions; the data cannot show whether adding a clean version helps the same song.,Moderate
+Playlist pitching,"Pitch both explicit and clean material; emphasise single-led, medium-length tracks for the top positions.",Top 10 is 50.8% single and 84.9% medium length; differences are moderate.,Moderate
+Album structure,"For album projects, concentrate promotion on a few focus tracks rather than the whole tracklist.","Album Size Impact Index -0.230 overall, -0.088 within albums only (weak); correlation, not causation.",Moderate
+France-specific localisation,Use this analysis as the French baseline and compare it with other markets before localising.,"Only the France playlist is analysed; genre, language and artist origin are not in the data.",Further data needed

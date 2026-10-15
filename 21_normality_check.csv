@@ -1,0 +1,4 @@
+Variable,Skewness,Normality test p-value,Conclusion
+Popularity,-0.27633110478699113,0.0,Not normal -> use Mann-Whitney U / Spearman
+Rank score,0.0,0.0,Not normal -> use Mann-Whitney U / Spearman
+Duration (min),0.8460318218477819,0.0,Not normal -> use Mann-Whitney U / Spearman

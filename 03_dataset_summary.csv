@@ -1,0 +1,16 @@
+Metric,Value
+Total observations (song-day rows),"27,750"
+Unique dates,555
+Date range,2024-05-18 to 2025-11-27
+Unique songs (title + artist),725
+Unique artists,324
+Average popularity,76.84
+Median popularity,75.0
+Average duration (min),3.09
+Median duration (min),3.00
+Explicit share (%),56.3
+Clean share (%),43.7
+Single share (%),47.1
+Album-track share (%),52.9
+Average album size (tracks),9.00
+Median album size (tracks),10.0

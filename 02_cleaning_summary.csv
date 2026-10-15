@@ -1,0 +1,19 @@
+Issue,Action Taken,Rows Affected
+Leading/trailing spaces in song or artist,Stripped whitespace,0
+Dates stored as text (DD-MM-YYYY),Converted to datetime (saved as YYYY-MM-DD),27800
+Unparseable dates,Drop rows (none found),0
+Non-numeric values in numeric columns,Converted to numbers; invalid -> missing,0
+Lower-case album_type labels (single / album / compilation),Standardised to Title Case,27800
+Unrecognised album_type labels,Set to missing (none found),0
+'Compilation' releases (neither Single nor Album),Kept as 'Compilation' in album_type; grouped with Album in release_format,9
+is_explicit stored as text (TRUE/FALSE),"Converted to boolean (True = Explicit, False = Clean)",27800
+Unrecognised is_explicit labels,Set to missing (none found),0
+Blank song title,Filled with 'Unknown Song'; row kept for rank and format analysis,1
+Popularity = 0 (score not available) or outside 1-100,"Set to missing; row kept, excluded from popularity statistics only",73
+Duration <= 0 ms,"Set to missing; row kept, excluded from duration statistics only",1
+total_tracks < 1 or missing,Set to missing (none found),0
+Very short tracks (< 60 seconds),Reviewed and retained (genuine intros/interludes),7
+Position outside 1-50,Drop rows (none found),0
+Exact duplicate rows,Dropped (kept first occurrence),19
+"Duplicate ranks on one date: a second, slightly different snapshot for 01-03-2025",Kept the first snapshot (one row per date and rank); dropped the later one,31
+Calendar dates with no snapshot,Not imputed; analysed as observed (stated as a limitation),4
